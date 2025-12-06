@@ -1,0 +1,150 @@
+[
+  {
+    "id": "prod-001",
+    "title": "Amrutam Kuntal Care Hair Spa",
+    "slug": "kuntal-care-hair-spa",
+    "description": "Amrutam Kuntal Care Do-It-Yourself Hair Spa is your go-to for transformative hair with a little effort. DIY with this revitalizing formula rich in Ayurvedic herbs formulated for stronger, shinier & healthier hair.",
+    "price": 849,
+    "originalPrice": 999,
+    "currency": "INR",
+    "images": ["/src/assets/product-hair-spa.png"],
+    "volume": "200 ml",
+    "rating": 4.8,
+    "reviewsCount": 52,
+    "category": "hair",
+    "ingredients": ["ing-001", "ing-002", "ing-003", "ing-004"],
+    "highlights": [
+      "Made with 18+ powerful Ayurvedic herbs",
+      "Reduces hair fall by 50% in 4 weeks",
+      "Promotes natural shine and strength",
+      "Free from harmful chemicals"
+    ],
+    "howToUse": "Mix the paste with lukewarm water to form a smooth paste. Apply evenly on scalp and hair. Leave for 30-45 minutes. Rinse thoroughly with Kuntal Care Herbal Shampoo.",
+    "faqs": [
+      {
+        "question": "How often should I use this product?",
+        "answer": "For best results, use once a week as a deep conditioning treatment."
+      },
+      {
+        "question": "Is it suitable for all hair types?",
+        "answer": "Yes, this hair spa is formulated to work on all hair types including dry, oily, and normal hair."
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": "prod-002",
+    "title": "Amrutam Kuntal Care Herbal Shampoo",
+    "slug": "kuntal-care-herbal-shampoo",
+    "description": "A gentle, sulfate-free herbal shampoo that cleanses while nourishing your scalp. Enriched with traditional Ayurvedic herbs for healthy, natural, and dynamic hair.",
+    "price": 649,
+    "originalPrice": 799,
+    "currency": "INR",
+    "images": ["/src/assets/product-shampoo.png"],
+    "volume": "200 ml",
+    "rating": 4.6,
+    "reviewsCount": 38,
+    "category": "hair",
+    "ingredients": ["ing-002", "ing-005", "ing-006"],
+    "highlights": [
+      "Sulfate-free formula",
+      "Natural cleansing agents",
+      "Maintains scalp pH balance",
+      "Suitable for daily use"
+    ],
+    "howToUse": "Wet hair thoroughly. Apply shampoo and massage gently into scalp. Rinse well and repeat if necessary.",
+    "inStock": true
+  },
+  {
+    "id": "prod-003",
+    "title": "Amrutam Nari Sondarya Malt",
+    "slug": "nari-sondarya-malt",
+    "description": "Complete care for women's health and beauty. This Ayurvedic malt is specially formulated to support hormonal balance, enhance skin radiance, and boost overall vitality.",
+    "price": 749,
+    "originalPrice": 899,
+    "currency": "INR",
+    "images": ["/src/assets/product-malt.png"],
+    "volume": "250 g",
+    "rating": 4.9,
+    "reviewsCount": 67,
+    "category": "immunity",
+    "ingredients": ["ing-001", "ing-007", "ing-008"],
+    "highlights": [
+      "Supports hormonal balance",
+      "Enhances natural beauty",
+      "Rich in antioxidants",
+      "Boosts immunity"
+    ],
+    "howToUse": "Take 1-2 teaspoons with warm milk or water twice daily, preferably after meals.",
+    "inStock": true
+  },
+  {
+    "id": "prod-004",
+    "title": "Amrutam Digestive Care Churna",
+    "slug": "digestive-care-churna",
+    "description": "A traditional Ayurvedic formulation to support healthy digestion. This potent blend of herbs helps relieve digestive discomfort and promotes gut health.",
+    "price": 399,
+    "originalPrice": 499,
+    "currency": "INR",
+    "images": ["/src/assets/product-hair-spa.png"],
+    "volume": "100 g",
+    "rating": 4.5,
+    "reviewsCount": 45,
+    "category": "digestion",
+    "ingredients": ["ing-001", "ing-003", "ing-006"],
+    "highlights": [
+      "Relieves bloating and gas",
+      "Improves appetite",
+      "Supports nutrient absorption",
+      "100% natural ingredients"
+    ],
+    "howToUse": "Mix 1/2 teaspoon with warm water and consume after meals.",
+    "inStock": true
+  },
+  {
+    "id": "prod-005",
+    "title": "Amrutam Skin Glow Serum",
+    "slug": "skin-glow-serum",
+    "description": "Achieve radiant, glowing skin with this lightweight Ayurvedic serum. Formulated with precious herbs and natural oils for deep nourishment.",
+    "price": 1299,
+    "originalPrice": 1499,
+    "currency": "INR",
+    "images": ["/src/assets/product-shampoo.png"],
+    "volume": "30 ml",
+    "rating": 4.7,
+    "reviewsCount": 89,
+    "category": "skin",
+    "ingredients": ["ing-004", "ing-007", "ing-008"],
+    "highlights": [
+      "Reduces dark spots",
+      "Evens skin tone",
+      "Deep hydration",
+      "Anti-aging properties"
+    ],
+    "howToUse": "Apply 3-4 drops on cleansed face and neck. Gently massage in upward strokes.",
+    "inStock": true
+  },
+  {
+    "id": "prod-006",
+    "title": "Amrutam Joint Care Oil",
+    "slug": "joint-care-oil",
+    "description": "A warming Ayurvedic oil blend for joints and muscles. Provides relief from stiffness and supports healthy joint mobility.",
+    "price": 599,
+    "originalPrice": 699,
+    "currency": "INR",
+    "images": ["/src/assets/product-malt.png"],
+    "volume": "100 ml",
+    "rating": 4.4,
+    "reviewsCount": 31,
+    "category": "bones",
+    "ingredients": ["ing-002", "ing-005", "ing-006"],
+    "highlights": [
+      "Relieves joint stiffness",
+      "Warming sensation",
+      "Promotes flexibility",
+      "Traditional formulation"
+    ],
+    "howToUse": "Warm the oil slightly. Massage gently on affected areas for 10-15 minutes. Use twice daily.",
+    "inStock": true
+  }
+]

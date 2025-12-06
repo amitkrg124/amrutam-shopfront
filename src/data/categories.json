@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cat-all",
+    "name": "All",
+    "slug": "all",
+    "icon": "grid",
+    "description": "Browse all products"
+  },
+  {
+    "id": "cat-hair",
+    "name": "Hair",
+    "slug": "hair",
+    "icon": "sparkles",
+    "description": "Hair care products for healthy, beautiful hair"
+  },
+  {
+    "id": "cat-skin",
+    "name": "Skin",
+    "slug": "skin",
+    "icon": "heart",
+    "description": "Skin care products for radiant, glowing skin"
+  },
+  {
+    "id": "cat-digestion",
+    "name": "Digestion",
+    "slug": "digestion",
+    "icon": "leaf",
+    "description": "Products for healthy digestion"
+  },
+  {
+    "id": "cat-bones",
+    "name": "Bones",
+    "slug": "bones",
+    "icon": "shield",
+    "description": "Products for bone and joint health"
+  },
+  {
+    "id": "cat-immunity",
+    "name": "Immunity",
+    "slug": "immunity",
+    "icon": "zap",
+    "description": "Products to boost your immunity"
+  }
+]

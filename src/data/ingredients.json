@@ -1,0 +1,210 @@
+[
+  {
+    "id": "ing-001",
+    "name": "Chitrak",
+    "slug": "chitrak",
+    "latin": "Plumbago zeylancia",
+    "sanskrit": "चित्रक",
+    "description": "Chitrak, also known as Ceylon Leadwort or Doctorbush, is a powerful Ayurvedic herb valued for its ability to improve digestion, reduce inflammation, and detoxify the body. It is great for boosting metabolism, enhancing skin health, and easing joint pain.",
+    "benefits": [
+      "Calms The Nervous System And Reduces Anxiety",
+      "Reduces Cholesterol And Supports Weight Loss",
+      "Manages Diabetes By Lowering Blood Sugar Levels",
+      "Beneficial In Hemorrhoids Of Vata Origin",
+      "Improves Digestion And Boosts Metabolism",
+      "Prevents Deposits In Arteries, Supporting Heart Health",
+      "Treats Skin Conditions Like Acne And Dermatitis",
+      "Speeds Up Wound Healing And Promotes New Skin Growth"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "unbalanced",
+      "kapha": "balanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "ayurvedicProperties": [
+      { "name": "Rasa", "sanskrit": "Katu (Pungent)", "description": "Stimulates salivation and digestion" },
+      { "name": "Veerya", "sanskrit": "Ushna (Hot)", "description": "Increases heat and energy in the body" },
+      { "name": "Guna", "sanskrit": "Laghu (Light), Ruksha (Dry), Tikshna (Sharp)", "description": "Terse in nature, ensures briskness" },
+      { "name": "Vipaka", "sanskrit": "Katu (Pungent)", "description": "Drying and stimulates peristalsis after digestion" }
+    ],
+    "therapeuticUses": ["Agnimandya", "Grahani Rog", "Arsha", "Udara Shula", "Gudavathu"],
+    "plantParts": [
+      { "name": "Root", "description": "Digestive, Skin problems, manage blood sugar levels" },
+      { "name": "Root bark", "description": "Manage obesity, menstruation and used in weight loss" },
+      { "name": "Leaves", "description": "Used externally for skin conditions and wounds" }
+    ],
+    "geographicalLocations": "It is native to tropical and subtropical regions worldwide, including India and Sri Lanka.",
+    "bestCombinedWith": ["Pippali", "Haritaki", "Guggulu", "Punarnava", "Amla", "Giloy"],
+    "importantFormulations": ["Chitrak Haritaki", "Chitrukadi Vati", "Kayasundam", "Chitrakadi Churna"]
+  },
+  {
+    "id": "ing-002",
+    "name": "Bhringraj",
+    "slug": "bhringraj",
+    "latin": "Eclipta alba",
+    "sanskrit": "भृंगराज",
+    "description": "Known as the 'King of Hair', Bhringraj is a legendary Ayurvedic herb that promotes hair growth, prevents premature graying, and strengthens hair from root to tip.",
+    "benefits": [
+      "Promotes hair growth and thickness",
+      "Prevents premature graying",
+      "Nourishes scalp and hair follicles",
+      "Supports liver health",
+      "Calms the mind and reduces stress",
+      "Improves skin complexion"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "balanced",
+      "kapha": "neutral"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Khalitya", "Palitya", "Shiroroga", "Netra Roga"],
+    "geographicalLocations": "Found throughout India, especially in moist areas and near water bodies.",
+    "bestCombinedWith": ["Amla", "Brahmi", "Coconut Oil", "Sesame Oil"]
+  },
+  {
+    "id": "ing-003",
+    "name": "Triphala",
+    "slug": "triphala",
+    "latin": "Three Fruits",
+    "sanskrit": "त्रिफला",
+    "description": "Triphala is a traditional Ayurvedic formulation consisting of three fruits - Amalaki, Bibhitaki, and Haritaki. It is one of the most versatile and commonly used herbal remedies in Ayurveda.",
+    "benefits": [
+      "Supports healthy digestion",
+      "Natural gentle cleanser",
+      "Rich in antioxidants",
+      "Supports healthy weight management",
+      "Promotes eye health",
+      "Balances all three doshas"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "balanced",
+      "kapha": "balanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Constipation", "Digestive disorders", "Eye diseases", "Skin conditions"],
+    "geographicalLocations": "The three fruits are found across India and Southeast Asia."
+  },
+  {
+    "id": "ing-004",
+    "name": "Neem",
+    "slug": "neem",
+    "latin": "Azadirachta indica",
+    "sanskrit": "निम्ब",
+    "description": "Neem is a powerful herb known for its antibacterial, antifungal, and blood-purifying properties. Every part of the neem tree has medicinal value.",
+    "benefits": [
+      "Purifies blood",
+      "Fights skin infections",
+      "Supports oral health",
+      "Natural insect repellent",
+      "Boosts immunity",
+      "Supports healthy hair and scalp"
+    ],
+    "prakritiImpact": {
+      "vata": "neutral",
+      "pitta": "balanced",
+      "kapha": "balanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Skin disorders", "Fever", "Diabetes", "Dental problems"],
+    "geographicalLocations": "Native to the Indian subcontinent, now grown in tropical regions worldwide."
+  },
+  {
+    "id": "ing-005",
+    "name": "Ashwagandha",
+    "slug": "ashwagandha",
+    "latin": "Withania somnifera",
+    "sanskrit": "अश्वगंधा",
+    "description": "Ashwagandha is one of the most powerful adaptogenic herbs in Ayurveda. It helps the body manage stress and promotes overall vitality and longevity.",
+    "benefits": [
+      "Reduces stress and anxiety",
+      "Improves strength and stamina",
+      "Supports cognitive function",
+      "Promotes restful sleep",
+      "Balances hormones",
+      "Supports immune function"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "neutral",
+      "kapha": "unbalanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Stress management", "Insomnia", "Weakness", "Reproductive health"],
+    "geographicalLocations": "Grows in India, Middle East, and parts of Africa."
+  },
+  {
+    "id": "ing-006",
+    "name": "Tulsi",
+    "slug": "tulsi",
+    "latin": "Ocimum sanctum",
+    "sanskrit": "तुलसी",
+    "description": "Tulsi, or Holy Basil, is considered a sacred plant in India. It is revered for its powerful healing properties and is often called 'The Queen of Herbs'.",
+    "benefits": [
+      "Boosts respiratory health",
+      "Natural stress reliever",
+      "Supports immunity",
+      "Purifies blood",
+      "Promotes clear skin",
+      "Supports healthy digestion"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "unbalanced",
+      "kapha": "balanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Cold and cough", "Fever", "Skin disorders", "Respiratory issues"],
+    "geographicalLocations": "Native to India, now cultivated worldwide."
+  },
+  {
+    "id": "ing-007",
+    "name": "Shatavari",
+    "slug": "shatavari",
+    "latin": "Asparagus racemosus",
+    "sanskrit": "शतावरी",
+    "description": "Shatavari is known as the 'Queen of Herbs' for women's health. It is a powerful rejuvenating tonic that supports hormonal balance and reproductive health.",
+    "benefits": [
+      "Supports female reproductive health",
+      "Promotes lactation",
+      "Balances hormones",
+      "Improves digestive health",
+      "Boosts immunity",
+      "Nourishes body tissues"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "balanced",
+      "kapha": "unbalanced"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Women's health", "Lactation", "Digestive disorders", "Immunity"],
+    "geographicalLocations": "Found throughout India, Sri Lanka, and the Himalayas."
+  },
+  {
+    "id": "ing-008",
+    "name": "Brahmi",
+    "slug": "brahmi",
+    "latin": "Bacopa monnieri",
+    "sanskrit": "ब्राह्मी",
+    "description": "Brahmi is a legendary brain tonic in Ayurveda. It enhances memory, concentration, and overall cognitive function while promoting calmness and mental clarity.",
+    "benefits": [
+      "Enhances memory and learning",
+      "Reduces anxiety and stress",
+      "Supports concentration",
+      "Promotes healthy hair growth",
+      "Nourishes nervous system",
+      "Improves sleep quality"
+    ],
+    "prakritiImpact": {
+      "vata": "balanced",
+      "pitta": "balanced",
+      "kapha": "neutral"
+    },
+    "image": "/src/assets/ingredient-chitrak.png",
+    "therapeuticUses": ["Memory enhancement", "Anxiety", "ADHD", "Epilepsy"],
+    "geographicalLocations": "Grows in wetlands across India, Nepal, Sri Lanka, and Vietnam."
+  }
+]
