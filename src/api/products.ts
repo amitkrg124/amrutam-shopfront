@@ -3,8 +3,29 @@ import productsData from '@/data/products.json';
 import ingredientsData from '@/data/ingredients.json';
 import categoriesData from '@/data/categories.json';
 
-// Type assertions for JSON imports
-const products = productsData as Product[];
+// Import product images
+import productHairSpa from '@/assets/product-hair-spa.png';
+import productShampoo from '@/assets/product-shampoo.png';
+import productMalt from '@/assets/product-malt.png';
+
+// Image mapping
+const productImages: Record<string, string> = {
+  'product-hair-spa': productHairSpa,
+  'product-shampoo': productShampoo,
+  'product-malt': productMalt,
+};
+
+// Helper to get product image
+function getProductImage(imageKey: string): string {
+  return productImages[imageKey] || productHairSpa;
+}
+
+// Map products with proper image paths
+const products: Product[] = (productsData as any[]).map(p => ({
+  ...p,
+  images: [getProductImage(p.image)]
+}));
+
 const ingredients = ingredientsData as Ingredient[];
 const categories = categoriesData as Category[];
 
