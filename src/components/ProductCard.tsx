@@ -23,32 +23,27 @@ export function ProductCard({ product, className }: ProductCardProps) {
   return (
     <Link
       to={`/product/${product.slug}`}
-      className={cn("card-product group block", className)}
+      className={cn("group block", className)}
     >
       {/* Image */}
-      <div className="relative aspect-square overflow-hidden bg-cream">
+      <div className="relative aspect-square overflow-hidden rounded-xl bg-secondary mb-3">
         <img
           src={product.images[0]}
           alt={product.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
         />
-        {product.originalPrice && product.originalPrice > product.price && (
-          <span className="absolute top-3 left-3 px-2 py-1 bg-terracotta text-white text-xs font-medium rounded-full">
-            Save {Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
-          </span>
-        )}
       </div>
 
       {/* Content */}
-      <div className="p-4">
-        <h3 className="font-product text-sm font-medium text-foreground line-clamp-2 min-h-[40px] mb-2">
+      <div className="space-y-2">
+        <h3 className="font-product text-sm text-foreground line-clamp-2 leading-snug">
           {product.title}
         </h3>
 
         {/* Price */}
-        <div className="flex items-baseline gap-2 mb-2">
-          <span className="font-heading text-base font-semibold text-foreground">
+        <div className="flex items-baseline gap-1">
+          <span className="font-heading text-sm font-medium text-foreground">
             {formatPrice(product.price, product.currency)}
           </span>
           {product.volume && (
@@ -57,14 +52,14 @@ export function ProductCard({ product, className }: ProductCardProps) {
         </div>
 
         {/* Rating & Add button */}
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-1">
+        <div className="flex items-center justify-between pt-1">
+          <div className="flex items-center gap-1.5">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
                   className={cn(
-                    "h-3.5 w-3.5",
+                    "h-3 w-3",
                     i < Math.floor(product.rating)
                       ? "text-gold fill-gold"
                       : "text-muted-foreground/30"
@@ -72,14 +67,14 @@ export function ProductCard({ product, className }: ProductCardProps) {
                 />
               ))}
             </div>
-            <span className="text-xs text-muted-foreground">
+            <span className="text-xs text-primary">
               ({product.reviewsCount})
             </span>
           </div>
 
           <button
             onClick={handleAddToCart}
-            className="btn-icon w-8 h-8"
+            className="w-7 h-7 rounded-md bg-primary text-primary-foreground flex items-center justify-center transition-all duration-200 hover:scale-105"
             aria-label="Add to cart"
           >
             <Plus className="h-4 w-4" />
@@ -92,14 +87,14 @@ export function ProductCard({ product, className }: ProductCardProps) {
 
 export function ProductCardSkeleton() {
   return (
-    <div className="card-product">
-      <div className="aspect-square skeleton" />
-      <div className="p-4 space-y-3">
-        <div className="h-10 skeleton" />
-        <div className="h-5 w-24 skeleton" />
+    <div className="space-y-3">
+      <div className="aspect-square skeleton rounded-xl" />
+      <div className="space-y-2">
+        <div className="h-10 skeleton rounded" />
+        <div className="h-4 w-24 skeleton rounded" />
         <div className="flex items-center justify-between">
-          <div className="h-4 w-20 skeleton" />
-          <div className="h-8 w-8 rounded-full skeleton" />
+          <div className="h-4 w-20 skeleton rounded" />
+          <div className="h-7 w-7 rounded-md skeleton" />
         </div>
       </div>
     </div>
